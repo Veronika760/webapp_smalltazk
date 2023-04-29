@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "../src/smalltazk.jpg" type= "image/x-icon">
+    <title>SmallTazk. Makes Life Easier for Everyone</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Scada:400,400i,700&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="manifest" href="/manifest.json">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-dark"  >
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand" >
+                    <img src="../src/Logo smalltazk.png" alt="logo" height="35rem" >
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="../homepage/index.html" class="nav-item nav-link active">Home</a>
+                        <a href="../about-us/about_us.html" class="nav-item nav-link">About Us</a>
+                        <a href="#our_service" class="nav-item nav-link">Service</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Become Our Partner</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Plumber</a>
+                                <a href="#" class="dropdown-item">Electrician</a>
+                                <a href="#" class="dropdown-item">Teacher</a>
+                                <a href="#" class="dropdown-item">Baby Sitter</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <div class="navbar-nav">
+                        <a href="../login/login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+            
+        
+        
+        <!-- ***************  HOME PAGE  **************** -->
+        <div class="container" >
+            <section id="hero">
+                <div class = "wrapper">
+                    <h2><strong>WELCOME TO SMALLTAZK</strong><br> Where you can hire someone instantly</h2>
+                    <p>We dream to ease human life by connecting the users and the casual workers on real time </p>
+                    <a href="../login/login.html" class="button-1">Get Started</a>
+                </div>
+            </section>
+            
+            
+            
+            <!-- ***************  SERVICE  **************** -->
+            <section id="our_service">
+                <h2><strong>Our Services</strong> </h2>
+                <div class="services fade-in-down d-flex flex-wrap">
+                    <a href="" class="service text-center">
+                        <img src="../src/plumbing_pip.jpg" class="lazyload" alt="plumbing-img">
+                        <p>Plumbing</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/babysitting.jpg" class="lazyload" alt="babysitting">
+                        <p>Babysitting</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/teacher.png" class="lazyload" alt="teaching">
+                        <p>Teaching</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/teacher.png" class="lazyload" alt="housechores">
+                        <p>Housechores</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/plumbing_pip.jpg" class="lazyload" alt="plumbing-img">
+                        <p>Plumbing</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/babysitting.jpg" class="lazyload" alt="babysitting">
+                        <p>Babysitting</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/teacher.png" class="lazyload" alt="teaching">
+                        <p>Teaching</p>
+                    </a>
+                    <a href="" class="service text-center">
+                        <img src="../src/teacher.png" class="lazyload" alt="housechores">
+                        <p>Housechores</p>
+                    </a>
+                </div>
+
+            </section>
+    
+            
+            <!-- ***************  CONTACT  **************** -->
+    
+            
+    
+           
+            <section id="contact">
+                <h1 class="section-header">Contact</h1>
+                <div class="contact-wrapper">
+                
+                <!-- Left contact page --> 
+                  
+                    <form id="contact-form" class="form-horizontal" role="form">
+                     
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                      </div>
+                    </div>
+              
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                      </div>
+                    </div>
+              
+                    <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                    
+                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                      <div class="alt-send-button">
+                        <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                      </div>
+                    
+                    </button>
+                    
+                  </form>
+                  
+                <!-- Left contact page --> 
+                  
+                    <div class="direct-contact-container">
+              
+                      <ul class="contact-list">
+                        <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Padua, Italy</span></i></li>
+                        
+                        <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+39 380 901 3257</a></span></i></li>
+                        
+                        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">info@smalltazk.com</a></span></i></li>
+                        
+                      </ul>
+              
+                      <hr>
+                      <ul class="social-media-list">
+                        <li><a href="#" target="_blank" class="contact-icon">
+                          <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#" target="_blank" class="contact-icon">
+                          <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#" target="_blank" class="contact-icon">
+                          <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#" target="_blank" class="contact-icon">
+                          <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>       
+                      </ul>
+                      <hr>
+              
+                      <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+              
+                    </div>
+                  
+                </div>
+                
+            </section>
+            
+            <footer >
+                <div class="row justify-content-center mb-0 pt-5 pb-0 row-2 px-3">
+                    <div class="col-12">
+                         <div class="row row-2">
+                             <div class="col-sm-3 text-md-center"><h5><span> <i class="fa fa-firefox text-light" aria-hidden="true"></i></span><b>  SmallTazk</b></h5></div>
+                             <div class="col-sm-3  my-sm-0 mt-5"><ul class="list-unstyled"><li class="mt-0">Platform</li><li>Help Center</li><li>Security</li></ul></div>
+                             <div class="col-sm-3  my-sm-0 mt-5"><ul class="list-unstyled"><li class="mt-0">Customers</li><li>Use Cases</li><li>Customers Services</li></ul></div>
+                             <div class="col-sm-3  my-sm-0 mt-5"><ul class="list-unstyled"><li class="mt-0">Company</li><li>About</li><li>Careers- <span class="Careers">We're-hiring</span></li></ul></div>
+                         </div>  
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-0 pt-0 row-1 mb-0  px-sm-3 px-2">
+                     <div class="col-12">
+                         <div class="row my-4 row-1 no-gutters">
+                             <div class="col-sm-3 col-auto text-center"><small>&#9400; SmallTazk Inc</small></div><div class="col-md-3 col-auto "></div><div class="col-md-3 col-auto"></div>
+                             <div class="col  my-auto text-md-left  text-right "> <small> smalltazk.com <span><img src="../src/smalltazk.jpg" class="img-fluid "  width="25"></span> <span><img src="../src/Logo smalltazk.png" class="img-fluid "  width="25"></span></small>  </div> 
+                         </div>
+                     </div>
+                 </div>
+             </footer>
+        </div>
+
+        
+    </main>
+    
+    <script src="index.js"></script>        
+</body>
+
+</html>
+
